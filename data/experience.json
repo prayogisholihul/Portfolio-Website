@@ -1,0 +1,81 @@
+[
+	{
+		"role": "Android Developer",
+		"company": "PT Satkomindo Mediyasa",
+		"location": "Jakarta, Indonesia",
+		"period": "Oct 2025 – Present",
+		"client": "PT Bank Rakyat Indonesia Tbk",
+		"highlights": [
+			"Build and maintain secure, high-performance Android banking features in Kotlin and Java for one of Indonesia's largest banks.",
+			"Ensure compliance with strict banking security and encryption standards throughout the development lifecycle.",
+			"Diagnose and resolve critical production issues to improve app stability, performance, and user experience.",
+			"Partner with UI/UX, QA, and backend teams to plan and deliver new features efficiently within release cycles."
+		]
+	},
+	{
+		"role": "Android Developer",
+		"company": "PT Adi Consulting",
+		"location": "Jakarta, Indonesia",
+		"period": "Jan 2025 – Oct 2025",
+		"client": "PT Bank Rakyat Indonesia Tbk",
+		"highlights": [
+			"Developed and maintained a secure, high-performance native mobile banking application using Kotlin and Java.",
+			"Implemented encryption techniques and industry best practices to uphold rigorous security standards.",
+			"Troubleshot and resolved technical issues, improving app stability and overall performance.",
+			"Collaborated cross-functionally with UI/UX designers and backend engineers to implement new features and optimize user experience."
+		]
+	},
+	{
+		"role": "Mobile Developer",
+		"company": "PT Phincon",
+		"location": "Jakarta, Indonesia",
+		"period": "Jul 2024 – Jan 2025",
+		"client": null,
+		"highlights": [
+			"Developed and maintained Flutter applications using Riverpod for state and widget management, improving performance and code structure.",
+			"Managed multi-module monorepos with Melos, streamlining development workflows across teams.",
+			"Applied Flutter best practices to build scalable, maintainable, and cross-platform-ready UI code.",
+			"Delivered ongoing support and bug fixes for the MyTelkomsel native Android application, ensuring a seamless user experience.",
+			"Collaborated with design, QA, and backend teams to ensure on-time project delivery."
+		]
+	},
+	{
+		"role": "Android Developer",
+		"company": "PT YesDok Indonesia",
+		"location": "North Jakarta, Indonesia",
+		"period": "Sep 2022 – Feb 2024",
+		"client": null,
+		"highlights": [
+			"Led the migration of legacy code from MVP to MVVM architecture, improving maintainability and long-term scalability.",
+			"Implemented ViewBinding and DataBinding in place of Kotlin synthetics, enhancing type safety and UI reliability.",
+			"Integrated Navigation Component to streamline in-app navigation and simplify fragment transitions.",
+			"Introduced modularization to the codebase, reducing build times and improving team collaboration.",
+			"Began building UI with Jetpack Compose, accelerating development of dynamic, flexible interfaces.",
+			"Worked closely with design, QA, and backend teams to align delivery with business goals."
+		]
+	},
+	{
+		"role": "Android Developer Internship",
+		"company": "PT Telkom Indonesia Tbk",
+		"location": "Bandung, Indonesia",
+		"period": "Jan 2022 – Jul 2022",
+		"client": null,
+		"highlights": [
+			"Applied Clean Architecture principles to improve app maintainability and scalability.",
+			"Followed Scrum methodology to manage development cycles, improving team productivity and delivery speed.",
+			"Collaborated with QA, design, and backend teams to ensure feature alignment and on-time delivery."
+		]
+	},
+	{
+		"role": "Android Developer Internship",
+		"company": "Finansialku",
+		"location": "Bandung, Indonesia",
+		"period": "Jul 2021 – Oct 2021",
+		"client": null,
+		"highlights": [
+			"Authored detailed code documentation, easing onboarding for new developers and supporting long-term maintainability.",
+			"Resolved application issues and bugs, improving app stability and user experience.",
+			"Applied MVVM architecture to improve application structure and separation of concerns."
+		]
+	}
+]

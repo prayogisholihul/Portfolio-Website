@@ -1,0 +1,115 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", sans-serif;
+
+  --color-ink: #060907;
+  --color-surface: #0e1512;
+  --color-accent: #3ddc84;
+  --color-accent-soft: #86efac;
+  --color-muted: #9db8ac;
+  --color-body: #bcc8c2;
+}
+
+/* Lenis smooth scroll */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+html {
+  scrollbar-color: #1e2b25 #060907;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #060907;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e2b25;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3ddc84;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* Journey timeline */
+.journey .journey-dot {
+  background: rgb(255 255 255 / 0.15);
+  transition:
+    background-color 0.4s ease,
+    box-shadow 0.4s ease,
+    transform 0.4s ease;
+}
+
+.journey li.active .journey-dot {
+  background: #3ddc84;
+  box-shadow: 0 0 0 5px rgb(61 220 132 / 0.15);
+  transform: scale(1.25);
+}
+
+/* Marquee */
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee 32s linear infinite;
+}
+
+.marquee:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+/* Aurora blobs */
+@keyframes drift {
+  from {
+    transform: translate(0, 0) scale(1);
+  }
+  to {
+    transform: translate(60px, 40px) scale(1.15);
+  }
+}
+
+.orb {
+  position: fixed;
+  z-index: -10;
+  pointer-events: none;
+  border-radius: 9999px;
+  filter: blur(110px);
+  animation: drift 18s ease-in-out infinite alternate;
+}
+
+/* Giant outlined ghost words */
+.ghost-word {
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(255 255 255 / 0.1);
+  user-select: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track,
+  .orb {
+    animation: none;
+  }
+}

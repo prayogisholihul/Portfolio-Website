@@ -1,0 +1,32 @@
+[
+	{
+		"slug": "brimo-qita",
+		"name": "BRImo & Qita",
+		"platform": "Native Android · Kotlin, Java",
+		"stack": ["Kotlin", "Java", "Secure Banking"],
+		"description": "Secure banking features for BRI's flagship apps, with encryption standards and stability improvements.",
+		"metrics": [],
+		"repo": null,
+		"demo": null
+	},
+	{
+		"slug": "mytelkomsel",
+		"name": "MyTelkomsel",
+		"platform": "Native Android · Flutter",
+		"stack": ["Android", "Flutter", "Riverpod", "Melos"],
+		"description": "Support and bug fixes for Telkomsel's flagship customer app, plus Flutter modules built with Riverpod and Melos.",
+		"metrics": [],
+		"repo": null,
+		"demo": null
+	},
+	{
+		"slug": "yesdok",
+		"name": "YesDok",
+		"platform": "Android · MVVM, Jetpack Compose",
+		"stack": ["Android", "MVVM", "Jetpack Compose", "Navigation Component"],
+		"description": "Led the MVP to MVVM migration, introduced modularization and Navigation Component, and started building early Jetpack Compose UI.",
+		"metrics": [],
+		"repo": null,
+		"demo": null
+	}
+]

@@ -1,0 +1,22 @@
+[
+	{
+		"category": "Languages",
+		"items": ["Kotlin", "Java", "Dart"]
+	},
+	{
+		"category": "Mobile",
+		"items": ["Android SDK", "Jetpack Compose", "ViewBinding", "DataBinding", "Navigation Component", "Flutter", "Riverpod"]
+	},
+	{
+		"category": "Architecture",
+		"items": ["MVVM", "MVP", "Clean Architecture", "Modularization", "SOLID Principles"]
+	},
+	{
+		"category": "Tools & Workflow",
+		"items": ["Android Studio", "Git", "Melos", "RESTful APIs", "JSON/XML", "SQLite", "Room"]
+	},
+	{
+		"category": "Practices",
+		"items": ["Agile/Scrum", "Code Review", "Secure Coding & Encryption Standards", "Material Design", "UI/UX Guidelines"]
+	}
+]

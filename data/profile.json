@@ -1,0 +1,40 @@
+{
+	"name": "Prayogi Sholihul Insan",
+	"title": "Android & Flutter Developer",
+	"location": "Jakarta, Indonesia",
+	"availability": "Open to Android & Flutter roles, remote or in Indonesia",
+	"tagline": "Building secure, production-grade Android and Flutter apps, including banking and telecom products.",
+	"heroScreens": [
+		{ "src": "/images/projects/brimo-qita/qita-01.webp", "alt": "Qita app screenshot" },
+		{ "src": "/images/projects/brimo-qita/brimo-02.webp", "alt": "BRImo app screenshot" }
+	],
+	"summary": "Android Developer with 4 years of experience building and maintaining secure, production-grade mobile applications, including native banking features for a major national bank. Skilled in Kotlin, Java, and Flutter, with hands-on experience leading architecture migrations (MVP to MVVM), modularizing large codebases, and adopting modern tooling such as Jetpack Compose and Navigation Component.",
+	"focus": [
+		"Secure banking features and encryption standards",
+		"Architecture migrations from MVP to MVVM",
+		"Modularization and Melos monorepos",
+		"Jetpack Compose and Flutter UI with Riverpod"
+	],
+	"email": "prayogisholihul@gmail.com",
+	"linkedin": "https://linkedin.com/in/prayogi-sholihul",
+	"github": "https://github.com/prayogisholihul",
+	"languages": [
+		{ "name": "Indonesian", "level": "Native" },
+		{ "name": "English", "level": "Conversational" }
+	],
+	"education": [
+		{
+			"school": "Telkom University",
+			"degree": "Bachelor of Computing, Information Systems",
+			"period": "2018 – 2022",
+			"detail": "GPA 3.7 / 4.0"
+		}
+	],
+	"activities": [
+		{
+			"title": "Laboratory Assistant, Enterprise System and Development",
+			"period": "2021 – 2022",
+			"detail": "Taught Object-Oriented Programming fundamentals to junior students."
+		}
+	]
+}
