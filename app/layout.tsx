@@ -15,6 +15,10 @@ export const metadata: Metadata = {
   title: "Prayogi Sholihul Insan · Android & Flutter Developer",
   description:
     "Android Developer with 4 years of experience building and maintaining secure, production-grade mobile applications, including native banking features for a major national bank.",
+  icons: {
+    icon: "/favicon.svg",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
