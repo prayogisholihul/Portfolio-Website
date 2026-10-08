@@ -1,53 +1,41 @@
-# Prayogi Sholihul Insan · Portfolio (Next.js)
+# Prayogi Sholihul Insan · Portfolio
 
-Personal portfolio built with Next.js 15 (App Router), React 19, TypeScript,
-Tailwind CSS v4, GSAP ScrollTrigger, Lenis smooth scroll, and Framer Motion.
+Android & Flutter developer portfolio — dark, fast, and animated.
 
-Design reference: [Carlos – Personal Portfolio Website](https://dribbble.com/shots/10724776-Carlos-Personal-Portfolio-Website)
-by Muh Salmon (dark theme, orange accent, sharp cards).
+![Portfolio preview](preview.png)
+
+**Stack:** Next.js 15 (App Router) · React 19 · TypeScript · Tailwind CSS v4 ·
+GSAP ScrollTrigger · Lenis smooth scroll · Framer Motion · Space Grotesk
+
+## Sections
+
+Hero with parallax phone mockups and a typewriter intro · tech marquee ·
+About · scroll-driven career journey · pinned horizontal project gallery with
+real Play Store screenshots · skills & Dicoding certifications · contact · footer
 
 ## Run locally
 
-```
+```bash
 npm install
 npm run dev
 ```
 
-Open http://localhost:3000. If PowerShell blocks `npm`, use `npm.cmd` instead.
+Open http://localhost:3000.
 
-## How animation is layered
+## Deploy
 
-- **Lenis** (`components/SmoothScroll.tsx`) — buttery smooth wheel scrolling.
-  Disabled automatically when the OS requests reduced motion.
-- **GSAP ScrollTrigger** — scroll-linked effects, all scrubbed to scroll position:
-  - Hero title and phone screenshots parallax at different speeds.
-  - Journey timeline progress line draws as you scroll; stops light up.
-  - Projects section pins and scrolls horizontally on desktop (`lg:` and up),
-    with a progress bar. Stacks vertically on mobile.
-- **Motion** (`motion/react`) — entrance animations (`whileInView`) and
-  hover micro-interactions.
-- **CSS** — tech marquee strip (pauses on hover, off under reduced motion).
+Push to GitHub, then import the repo in [Vercel](https://vercel.com) (free tier).
+No extra configuration needed — every push to `main` redeploys automatically.
 
-Nav links scroll via the Lenis instance (`scrollToSection`).
+## Content
 
-## Edit content
+All editable content lives in `data/`:
 
-- `data/profile.json` — name, title, availability, tagline, summary, contact
-  links, education, activities
-- `data/experience.json` — journey entries (bullets are kept as data but not rendered)
-- `data/projects.json` — project cards
-- `data/skills.json`, `data/certifications.json`
-- `data/screenshots.ts` — screenshot lists per project and hero images
+- `profile.json` — name, title, tagline, contact links, education, activities
+- `experience.json` — career journey entries
+- `projects.json` — project cards (screenshots listed in `screenshots.ts`)
+- `skills.json`, `certifications.json`
+- `screenshots.ts` — screenshot lists per project, hero images, captions
 
-## Add images
-
-App screenshots live in `public/images/projects/<slug>/` and are listed in
-`data/screenshots.ts`. Every image in a project's list appears, so name files
-in display order (`01`, `02`, …). Hero images come from `heroScreens` in the
-same file.
-
-## Deploy (free)
-
-Push this repo to GitHub, then import it in Vercel (free tier). No special
-settings needed — `npm run build` is detected automatically. Every push to
-`main` redeploys.
+App screenshots live in `public/images/projects/<slug>/` and are sourced from
+the official Google Play Store listings (linked from each project card).
